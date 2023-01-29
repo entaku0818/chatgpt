@@ -1,0 +1,11 @@
+{
+  "name": "sample-http",
+  "version": "0.0.1",
+  "dependencies": {
+    "@slack/web-api": "^6.8.0",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "start": "npx functions-framework --target=helloWorld --signature-type=http"
+  }
+}
